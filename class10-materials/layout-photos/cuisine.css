@@ -1,0 +1,201 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+  
+  /* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+  
+.clear {
+    clear: both;
+}
+
+/* NAV */
+header {
+    height: 40px;
+}
+
+header > nav * {
+    float: left;
+
+}
+
+header > nav {
+    height: 40px;
+}
+
+nav ul {
+    margin-left: 650px;
+    padding: 0 20px;
+}
+
+nav li {
+    padding: 0 20px;
+}
+
+a {
+    color: black;
+}
+
+nav img {
+    padding: 5px;
+}
+
+/* First Section */
+.welcome {
+    background-image: url(IMG_5960.jpeg);
+    padding: 100px;
+}
+
+h1 {
+    font-size: 70px;
+    margin-bottom: 0;
+}
+
+.welcome-text > * {
+    width: 500px;
+}
+
+input {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.welcome span {
+    padding: 0 25px;
+}
+
+/* Second Section */
+
+h2 {
+    font-size: 60px;
+}
+
+.about-us {
+    margin-top: 100px;
+    margin-left: 100px;
+    padding: 80px;
+}
+
+.about-us > * {
+    width: 700px;
+    margin-left: 400px;
+}
+
+#about-us-btn {
+    width: 150px;
+    height: 50px;
+    background: pink;
+}
+
+.order {
+    background-color: pink;
+}
+
+.order ul {
+    padding-left: 0;
+}
+
+.order li {
+    float: left;
+    width: 20%;
+    transition: 300ms;
+    border-bottom: 1px solid transparent;
+}
+
+.order li:hover {
+   border-color: black;
+}
+
+.order-text {
+    width: 900px;
+    padding: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+.order-text h2 {
+    margin: 0;
+    padding: 20px 20px 30px 20px;
+}
+
+.cats {
+    background-color: pink;
+}
+
+.name {
+    width: 900px;
+    margin: auto;
+    padding: 20px 0 60px;
+}
+
+.name img {
+    padding: 10px;
+}
+
+.hours {
+    background-color: mediumspringgreen;
+}
+
+.hours-top {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+}
+
+.hours-top * {
+    display: block;
+}
+
+.hours-top img {
+    margin: auto;
+}
+
+.hours-split {
+    padding: 20px 80px;
+}
+
+.hours-split * {
+    float: left;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.mon-tues * {
+    text-align: center;
+}
+
+.big-cat {
+    width: 900px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.review {
+    background-color: coral;
+    padding: 100px;
+}
+
+.review * {
+    display: block;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.review img {
+    width: 50px;
+    height: auto;
+}

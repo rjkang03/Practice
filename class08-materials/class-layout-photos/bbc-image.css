@@ -1,0 +1,48 @@
+header {
+    background: black;
+    color: white;
+    height: 50px;   
+}
+
+nav * {
+    width: 10%;
+    float: left;
+    display: block;
+    color: white
+}
+
+nav ul {
+    width: 50%;
+}
+
+nav form input {
+    width: 100%;
+}
+
+/* h1, h1 + span {
+    float: left;
+    display: inline;
+    width: 50%;
+}
+
+#date {
+    margin: 30px;
+} */
+
+main > section {
+    float: left;
+    width: 50%;
+    height: 400px;
+}
+
+main section + section section {
+    float: left;
+    width: 50%;
+    height: 200px;
+}
+
+section > section {
+    float: left;
+    width: 33.3333%;
+    height: 400px;
+}

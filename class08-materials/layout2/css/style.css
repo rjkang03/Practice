@@ -1,0 +1,121 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+  text-decoration: none;
+  color: grey;
+}
+
+header {
+  height: 30px;
+}
+
+a {
+  color: palevioletred;
+}
+
+nav > * {
+  float: left;
+  width: 10%;
+
+}
+
+ul {
+  width: 80%;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  float: left;
+  width: 20%;
+  text-align: center;
+  margin: 0 20px;
+}
+
+button {
+  background-color: yellow;
+  font-weight: bold;
+  border-color: pink;
+  box-shadow: pink;
+  color: pink;
+}
+
+.hero > section {
+  float: left;
+  width: 50%;
+  height: 400px;
+  background-color: lightgray;
+}
+
+img {
+  width: auto;
+  height: 100%;
+  padding-right: 0%;
+}
+
+.hero {
+  /* height: 400px; */
+  margin-right: 0%;
+}
+
+.hero-left *{
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.hero-btn {
+  width: 25%;
+}
+
+.grid > * {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+.grid > section * {
+  display: block;
+}
+
+@media screen and (max-width: 900px) {
+  .hero > section {
+    float: none;
+    width: auto;
+  }
+  img {
+    display: block;
+    margin-right: auto;
+    width: 50%;
+    margin-left: auto;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  nav > ul, nav > button {
+    display: none;
+  }
+  nav > 
+}
+
+display none nav, not whole header
+diaplay block hamburg
